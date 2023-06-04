@@ -12,7 +12,7 @@ public class ColorHelper {
         List<String> colors = new ArrayList<>();
         for (String strColor : strColors) {
             Color color = styleSheet.stringToColor(strColor);
-            colors.add("rgba(" + color.getRed() + ", " + color.getBlue() + ", " + color.getGreen() + ")");
+            colors.add("rgba(" + color.getRed() + ", " + color.getGreen() + ", " + color.getBlue() + ")");
         }
 
         return colors;
